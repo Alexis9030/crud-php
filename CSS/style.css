@@ -1,0 +1,116 @@
+html, body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f2f5;
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    width: 100%; /* Ajustado a 100% del ancho */
+    max-width: 1200px; /* Limitar el ancho máximo */
+    text-align: center;
+    box-sizing: border-box; /* Incluye el padding en el ancho total */
+    margin: 20px; /* Añadir un pequeño margen para evitar que el contenido toque los bordes */
+}
+
+h1 {
+    color: #333;
+    font-family: 'Georgia', serif;
+}
+
+h2 {
+    color: #555;
+    font-family: 'Verdana', sans-serif;
+    margin-top: 30px;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+input[type="text"], input[type="submit"] {
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    width: 100%;
+    max-width: 400px;
+    box-sizing: border-box;
+}
+
+input[type="submit"] {
+    background-color: #28a745;
+    color: white;
+    cursor: pointer;
+    border: none;
+}
+
+input[type="submit"]:hover {
+    background-color: #218838;
+}
+
+table {
+    width: 100%; /* Ajustado a 100% del ancho */
+    border-collapse: collapse;
+    margin-top: 20px;
+    font-size: 12px; /* Reducido el tamaño de la fuente */
+}
+
+table, th, td {
+    border: 1px solid #ddd;
+}
+
+th, td {
+    padding: 8px;
+    text-align: left;
+    white-space: nowrap; /* Evita que el texto se envuelva */
+}
+
+th {
+    background-color: #f8f9fa;
+}
+
+a {
+    color: #007bff;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+/* Estilos para los botones de editar y eliminar */
+.btn-edit {
+    color: white;
+    background-color: #28a745;
+    padding: 5px 10px;
+    border-radius: 4px;
+    text-decoration: none;
+}
+
+.btn-edit:hover {
+    background-color: #218838;
+}
+
+.btn-delete {
+    color: white;
+    background-color: #dc3545;
+    padding: 5px 10px;
+    border-radius: 4px;
+    text-decoration: none;
+}
+
+.btn-delete:hover {
+    background-color: #c82333;
+}
